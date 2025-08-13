@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "DataShield",
+  "version": "0.1.0",
+  "description": "Seu guardião de privacidade com IA e blockchain",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "DataShield"
+  },
+  "permissions": ["activeTab", "storage", "scripting", "webRequest", "webRequestBlocking"],
+  "host_permissions": ["<all_urls>"]
+}
